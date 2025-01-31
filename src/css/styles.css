@@ -16,3 +16,47 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.title {
+margin-left: 40px;
+margin-top: 20px;
+  font-size: 36px;
+  font-weight: 40px;
+  color:blue;
+}
+.goback {
+  font-size: 24px;
+  font-weight: 30px;
+  margin-left: 40px;
+margin-top: 20px;
+text-decoration: underline;
+  color: blueviolet;
+}
+.gallery {
+  margin: auto;
+  margin-top: 32px;
+  width: 1128px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.gallery-item {
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+}
+.title-gallery {
+  font-size: 40px;
+  font-weight: 40px;
+  margin: auto;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+}
